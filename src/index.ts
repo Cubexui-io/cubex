@@ -1,5 +1,6 @@
 export { default as Button1 } from "./components/buttons/Button1";
 export { default as Button2 } from "./components/buttons/Button2";
+export { default as Button3 } from "./components/buttons/Button3";
 export { default as Card1 } from "./components/cards/Card1";
 export { default as Card2 } from "./components/cards/Card2";
 export { default as Checkbox1 } from "./components/chexboxes/Checkbox1";
@@ -11,6 +12,8 @@ export { default as Input2 } from "./components/Inputs/Input2";
 export { default as Loader1 } from "./components/loaders/Loader1";
 export { default as Loader2 } from "./components/loaders/Loader2";
 export { default as Loader3 } from "./components/loaders/Loader3";
+export { default as Loader4 } from "./components/loaders/Loader4";
+export { default as Loader5 } from "./components/loaders/Loader5";
 export { default as Radio1 } from "./components/RadioInputs/Radio1";
 export { default as Radio2 } from "./components/RadioInputs/Radio2";
 export { default as Switch1 } from "./components/toggleSwitches/Switch1";
