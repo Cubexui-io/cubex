@@ -1,17 +1,23 @@
 {
   "name": "cubex-ui",
-  "version": "1.0.0",
-  "description": "CubexUI: La librería de componentes UI para React",
+  "version": "1.0.1",
+  "description": "CubexUI, the open-source React library that makes a difference by turning design into speed, efficiency, and creativity.",
+  "homepage": "https://cubexui.io",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuusuario/cubex-ui"
+    "url": "https://github.com/Cubexui-io/cubex"
   },
-  "keywords": ["react", "ui-library", "tailwind", "components"],
-  "author": "Tu Nombre",
+  "keywords": [
+    "react",
+    "ui-library",
+    "tailwind",
+    "components"
+  ],
+  "author": "Ismael Rivas Cano",
   "license": "MIT",
   "peerDependencies": {
     "react": "^18 || ^19",
@@ -19,15 +25,15 @@
     "styled-components": "^6.1.18"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.4.1",
-    "vite": "^6.3.5",
-    "eslint": "^9.25.0",
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "tailwindcss": "^4.1.8",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.25.0",
     "postcss": "^8.5.4",
-    "autoprefixer": "^10.4.21"
+    "tailwindcss": "^4.1.8",
+    "vite": "^6.3.5"
   },
   "scripts": {
     "dev": "vite",
