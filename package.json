@@ -47,9 +47,10 @@
     "vite": "^6.3.5"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  }
+  "dev": "vite",
+  "build": "vite build && tsc",
+  "lint": "eslint .",
+  "preview": "vite preview"
+}
+
 }
