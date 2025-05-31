@@ -1,6 +1,6 @@
 {
   "name": "cubex-ui",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "CubexUI, the open-source React library that makes a difference by turning design into speed, efficiency, and creativity.",
   "homepage": "https://cubexui.io",
   "main": "dist/index.js",
