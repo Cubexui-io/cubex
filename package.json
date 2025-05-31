@@ -1,11 +1,11 @@
 {
   "name": "cubex-ui",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "CubexUI, the open-source React library that makes a difference by turning design into speed, efficiency, and creativity.",
   "homepage": "https://cubexui.io",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-   "types": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.esm.js",
