@@ -1,6 +1,7 @@
 export { default as Button1 } from "./components/buttons/Button1";
 export { default as Button2 } from "./components/buttons/Button2";
 export { default as Button3 } from "./components/buttons/Button3";
+export { default as Button4 } from "./components/buttons/Button4";
 export { default as Card1 } from "./components/cards/Card1";
 export { default as Card2 } from "./components/cards/Card2";
 export { default as Checkbox1 } from "./components/chexboxes/Checkbox1";
