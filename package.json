@@ -42,6 +42,7 @@
     "eslint": "^9.25.0",
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3",
     "vite": "^6.3.5"
   },
   "scripts": {
@@ -49,6 +50,5 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-  },
-  "dependencies": {}
+  }
 }
