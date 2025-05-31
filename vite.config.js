@@ -6,19 +6,21 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: path.resolve(__dirname, "src/index.js"), 
+      entry: path.resolve(__dirname, "src/index.js"),
       name: "CubexUI",
       formats: ["es", "cjs"],
-      fileName: "index", 
+      fileName: (format) =>
+        format === "es" ? "index.esm.js" : "index.js"
     },
     rollupOptions: {
-      external: ["react", "react-dom"], 
+      external: ["react", "react-dom", "styled-components"],
       output: {
         globals: {
           react: "React",
           "react-dom": "ReactDOM",
-        },
-      },
-    },
-  },
+          "styled-components": "styled"
+        }
+      }
+    }
+  }
 });
