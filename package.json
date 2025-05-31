@@ -1,0 +1,38 @@
+{
+  "name": "cubex-ui",
+  "version": "1.0.0",
+  "description": "CubexUI: La librería de componentes UI para React",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuusuario/cubex-ui"
+  },
+  "keywords": ["react", "ui-library", "tailwind", "components"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19",
+    "styled-components": "^6.1.18"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^6.3.5",
+    "eslint": "^9.25.0",
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "tailwindcss": "^4.1.8",
+    "postcss": "^8.5.4",
+    "autoprefixer": "^10.4.21"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  }
+}
