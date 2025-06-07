@@ -1,7 +1,14 @@
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
-export default defineConfig({
-  plugins: [
-    tailwindcss(),
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: "class", 
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx,html}",
   ],
-})
+  theme: {
+    extend: {},
+  },
+  plugins: [
+     tailwindcss(),
+     require("tailwindcss-animate")
+  ],
+};
