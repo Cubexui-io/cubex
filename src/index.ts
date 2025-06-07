@@ -20,3 +20,4 @@ export { default as Radio2 } from "./components/RadioInputs/Radio2";
 export { default as Switch1 } from "./components/toggleSwitches/Switch1";
 export { default as Switch2 } from "./components/toggleSwitches/Switch2";
 export { default as Tooltip1 } from "./components/Tooltips/Tooltip1";
+export { default as SeeMore } from "./components/buttons/Button5";
